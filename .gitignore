@@ -1,17 +1,23 @@
-output/
-venv/
-temp/
-.rpa/
-.idea/
-.ipynb_checkpoints/
-*/.ipynb_checkpoints/*
-.virtual_documents/
-*/.virtual_documents/*
-.vscode
-.DS_Store
-*.pyc
-*.zip
-*/work-items-out/*
-testrun/*
-.~lock*
-*.pkl
+### AL ###
+#Template for AL projects for Dynamics 365 Business Central
+#launch.json folder
+.vscode/
+#Cache folder
+.alcache/
+#Symbols folder
+.alpackages/
+#Snapshots folder
+.snapshots/
+#Testing Output folder
+.output/
+#Extension App-file
+*.app
+#Rapid Application Development File
+rad.json
+#Translation Base-file
+*.g.xlf
+#License-files
+*.bclicense
+*.flf
+#Test results file
+TestResults.xml
